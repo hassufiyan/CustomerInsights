@@ -11,18 +11,18 @@ import javax.persistence.NoResultException;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
-import org.slf4j.Logger;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.xworkz.customerinsights.entity.CustomerInsightsEntity;
 
 import jdk.internal.org.jline.utils.Log;
-import lombok.extern.slf4j.Slf4j;
+
 import net.bytebuddy.agent.builder.AgentBuilder.RedefinitionStrategy.Listener;
 
 @Repository
-@Slf4j
+
 public class CustomerInsightsDaoImpl implements CustomerInsightsDao {
 
 	@Autowired
